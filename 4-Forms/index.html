@@ -8,49 +8,16 @@
   </head>
   <body>
     <form action="/">
-      <p>
-        <label>Phone: <input type="number" name="phone" required/></label>
-      </p>
-      <p>
-        <label>E-mail: <input type="email" name="e-mail" required/></label>
-      </p>
-      <p>
-        <label>
-            Password: <input type="password" name="password" required/>
-        </label>
-      </p>
-      <p>
-        <label>
-          Confirm Password:<input type="password" name="conf-password" required/>
-        </label>
-      </p>
-      <p>
-        <label>Nickname: <input type="text" name="nickname" required/></label>
-      </p>
-      <p>
-        <label>
-            Habitual Resident:
-          <select name="resident" required>
-            <option value="Tbilisi">Tbilisi</option>
-            <option value="Telavi">Telavi</option>
-          </select>
-        </label>
-      </p>
-      <p>
-        <label>
-            Website:
-          <input type="url" name="website" placeholder="website" required/>
-        </label>
-      </p>
-      <p>
-        <label><input type="checkbox" name="agrement" required/>
-            I have read the
-          <a href="google.com" >agrement</a>
-        </label>
-      </p>
-      <p>
-        <label><input type="submit" value="Register"/></label>
-      </p>
+        <p><label>Name: <input type="text" name="firstName" required placeholder="Name"></label></p>
+        <p><label>Email: <input type="email" name="email" required placeholder="Email"></label></p>
+        <p><label>Password: <input type="password" name="password" required placeholder="Password"></label></p>
+        <p><label>Number: <input type="number" name="number" required placeholder="Number"></label></p>
+        <p><label>Date: <input type="date" name="date" required placeholder="Date"></label></p>
+        <p><label>Time: <input type="time" name="time" required placeholder="Time"></label></p>
+        <p><label>Color: <input type="color" name="color" required placeholder="Color"></label></p>
+        <p><label>Range: <input type="range" name="range" required placeholder="Range"></label></p>
+        <p><label>Description: <textarea name="description" rows="5" cols="20" required placeholder="Description"></textarea></label></p>
+        <p><input type="submit" value="Submit"><input type="reset" value="Clear"></p>
     </form>
   </body>
 </html>
