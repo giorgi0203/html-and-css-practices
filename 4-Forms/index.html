@@ -8,16 +8,21 @@
   </head>
   <body>
     <form action="/">
-        <p><label>Name: <input type="text" name="firstName" required placeholder="Name"></label></p>
-        <p><label>Email: <input type="email" name="email" required placeholder="Email"></label></p>
-        <p><label>Password: <input type="password" name="password" required placeholder="Password"></label></p>
-        <p><label>Number: <input type="number" name="number" required placeholder="Number"></label></p>
-        <p><label>Date: <input type="date" name="date" required placeholder="Date"></label></p>
-        <p><label>Time: <input type="time" name="time" required placeholder="Time"></label></p>
-        <p><label>Color: <input type="color" name="color" required placeholder="Color"></label></p>
-        <p><label>Range: <input type="range" name="range" required placeholder="Range"></label></p>
-        <p><label>Description: <textarea name="description" rows="5" cols="20" required placeholder="Description"></textarea></label></p>
-        <p><input type="submit" value="Submit"><input type="reset" value="Clear"></p>
+        <p><label>Full Name: <input type="text" name="fullName" required placeholder="Enter full name"></label></p>
+        <p><label>Email adress: <input type="email" name="email" required placeholder="Enter email"></label></p>
+        <p>Communication:</p>
+        <p>
+            <p><label><input type="checkbox" name="comunication" > Email</label></p>
+            <p><label><input type="checkbox" name="comunication" > SMS</label></p>
+            <p><label><input type="checkbox" name="comunication" > Phone</label></p>
+        </p>
+        <p>User Group:</p>
+        <p>
+            <label><input type="radio" name="group" required> Sales Person</label>
+            <label><input type="radio" name="group" required> Customer</label>
+        </p>
+        <small>Please sellect user group</small>
+        <p><input type="submit" value="Submit"><input type="reset" value="Cancel"></p>
     </form>
   </body>
 </html>
