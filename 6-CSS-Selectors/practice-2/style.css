@@ -1,0 +1,78 @@
+/*
+ home page  
+ */
+.home {
+  background-color: aquamarine;
+}
+
+.home header {
+  background-color: coral;
+}
+.home section section {
+  border-radius: 25px;
+  background-color: aqua;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.home h1 {
+  text-align: center;
+}
+
+/*
+ list of all articles
+ */
+.blog-list {
+  background-color: aquamarine;
+}
+
+.blog-list section {
+  border-radius: 25px;
+  background-color: aqua;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.blog-list header {
+  margin: 5px;
+  background-color: coral;
+}
+.blog-list nav {
+  font-size: 30px;
+}
+.blog-list nav a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.blog-list nav a:hover {
+  color: blue;
+  text-decoration: none;
+}
+.blog-list h1 {
+  text-align: center;
+}
+
+/*
+    preview page styles
+ */
+.preview {
+  background-color: aquamarine;
+}
+.preview header {
+  margin: 5px;
+  padding: 10px;
+  background-color: coral;
+}
+.preview section {
+  text-align: center;
+}
+.preview nav {
+  /* margin: 10px; */
+  font-size: 30px;
+}
+.preview nav a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.preview nav a:hover {
+  color: blue;
+  text-decoration: none;
+}
