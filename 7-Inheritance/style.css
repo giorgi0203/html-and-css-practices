@@ -36,15 +36,17 @@
 }
 
 .btn-sm {
-    line-height: 1px;
-    font-size: 10px;
-    border: solid #a3b0c6 .5px;
-    padding: 10px;
+  line-height: 1px;
+  font-size: 10px;
+  border: solid #a3b0c6 0.5px;
+  padding: 10px;
 }
 .btn-lg {
-    line-height: 2px;
-    font-size: 20px;
-    border: solid #a3b0c6 2px;
-    padding: 20px;
+  line-height: 2px;
+  font-size: 20px;
+  border: solid #a3b0c6 2px;
+  padding: 20px;
 }
-
+.btn-ghost {
+  background-color: unset !important;
+}
