@@ -1,0 +1,36 @@
+.btn {
+  font: 400 13.3333px Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.3333px;
+  line-height: normal;
+  font-family: Arial;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  cursor: default;
+  margin: 0em;
+}
+
+.btn-Primary {
+  border: solid #007bff 2px;
+  background-color: #007bff;
+}
+.btn-Default {
+  color: black;
+  border: solid #a3b0c6 2px;
+  background-color: white;
+}
+.btn-Dashed {
+  color: black;
+  border: dashed #a3b0c6 2px;
+  background-color: white;
+}
+.btn-Danger {
+  border: solid #d7d9da 2px;
+  color: red;
+  background-color: #e9ebec;
+}
