@@ -1,17 +1,91 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(68, 68, 68);
+}
 .card {
+  margin-left: 20px;
+  max-width: 400px;
   border-radius: 5px;
   display: inline-block;
   border: solid rgb(201, 201, 198) 2px;
 }
-.card img {
-  width: 300px;
+
+.document-name {
+  padding-left: 5px;
 }
-.card-content {
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-.card-content a {
-  font-size: 20px;
-  color: rgb(180, 180, 179);
+
+.more{
   text-decoration: none;
+  cursor: pointer;
+}
+
+.document-icon,
+.document-name {
+  display: inline;
+}
+.document-section {
+  border-bottom: solid rgb(201, 201, 198) 2px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.document-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.information-section {
+  padding-left: 20px;
+}
+.category-text {
+  font-size: 15px;
+}
+.uploaded-count {
+  font-size: 25px;
+}
+.user-info img {
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.creation-date{
+  color: rgb(134, 136, 135);
+}
+
+.user-info-inline-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.user-name {
+  color: black;
+  font-weight: 900;
+}
+.icons {
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+.icons img {
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.icons .left img:nth-child(even),img:last-child {
+  margin-left: 5px;
+}
+
+.icons .left img {
+  cursor: pointer;
+}
+
+.icons .right {
+  float: right;
+}
+.icons .right span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.icons .right,
+.left {
+  display: inline-block;
 }
