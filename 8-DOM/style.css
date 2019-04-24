@@ -1,0 +1,17 @@
+.card {
+  border-radius: 5px;
+  display: inline-block;
+  border: solid rgb(201, 201, 198) 2px;
+}
+.card img {
+  width: 300px;
+}
+.card-content {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.card-content a {
+  font-size: 20px;
+  color: rgb(180, 180, 179);
+  text-decoration: none;
+}
