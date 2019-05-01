@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 1170px;
+  margin: 50px auto;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+article {
+  border: 1px solid #ecf0f1;
+  width: 100%;
+  padding: 20px 20px 0;
+}
+
+.poster {
+  height: 800px;
+  width: 100%;
+  background-color: #a1b1bc;
+  margin-bottom: 14px;
+}
+
+.content header h1 {
+  color: #2c3e50;
+  font-family: "Roboto";
+  font-size: 36px;
+  line-height: 30px;
+}
+
+.content header p span {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 39px;
+  color: #a1b1bc;
+  margin-left: -2px;
+
+  line-height: 30px;
+}
+.content header p span::after {
+  content: "";
+  display: inline-block;
+  /* width: 0px; */
+  height: 12px;
+  background-color: #ebebeb;
+  margin-left: 10px;
+  margin-right: 13px;
+  margin-top: 12px;
+}
+
+.content header p span:last-child::after {
+  display: none;
+}
+.content header {
+  padding-bottom: 19px;
+  border-bottom: 1px solid #ecf0f1;
+  margin-bottom: 13px;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+.text p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  color: #a1b1bc;
+  line-height: 23px;
+}
+
+.indent {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  margin-left: 40px;
+  padding: 50px;
+  border-left: 10px #21c2f8 solid;
+  color: #a1b1bc;
+  font-size: 16px;
+}
+.indent p:first-child {
+  font-size: 24px;
+  margin-bottom: 11px;
+}
+
+.content div:nth-child(4) p::first-letter {
+  color: #21c2f8;
+  background-color: #34495e;
+  font-size: 40px;
+  float: left;
+  padding: 12px 15px 12px 15px;
+}
+
+h2 {
+  color: #34495e;
+  font-size: 30px;
+  padding-bottom: 14px;
+}
