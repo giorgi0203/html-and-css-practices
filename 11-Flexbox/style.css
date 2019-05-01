@@ -19,29 +19,36 @@ main {
   height: 50px;
   margin: 5px;
 }
-.col{
-  
-}
 .row:nth-child(1) .col {
-  /* background-color: blue; */
-  flex-grow: .3;
+  flex-grow: 0.3;
   height: 160px;
 }
 
 .row:nth-child(2) .col-1 {
-  /* background-color: blue; */
-  flex-grow: .3;
+  flex-grow: 0.3;
   height: 90px;
 }
 
 .row:nth-child(3) .col-1:first-child {
-  background-color: blue;
   width: 30px;
   height: 160px;
 }
 
-.row:nth-child(3) .col-1:nth-child(2){
-  background-color: blue;
+.row:nth-child(3) .col-1:nth-child(2) {
   width: 155px;
+  height: 160px;
+}
+
+.row:nth-child(3) .col:nth-child(3) .col:nth-child(1) {
+  width: 130px;
+  height: 130px;
+}
+.row:nth-child(3) .col:nth-child(3) .col:nth-child(2) {
+  width: 130px;
+  height: 25px;
+}
+
+.row:nth-child(3) .col:nth-child(4) {
+  width: 53px;
   height: 160px;
 }
