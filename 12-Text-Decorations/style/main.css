@@ -106,11 +106,12 @@ article {
   font-size: 30px;
   float: left;
   text-align: center;
-  margin-top: 6px;
-  margin-right: 6px;
-  padding: 11.2px 12.2px 5.2px 12.2px
+  margin-top: 5px;
+  margin-right: 2.9px;
+  padding: 10px 12.2px 8px 13.7px;
 }
 .content div:nth-child(4) p {
+  word-spacing: 0.1px;
   /* letter-spacing: 1px; */
   /* line-height: 5px; */
 }
@@ -119,6 +120,6 @@ h2 {
   font-family: "Roboto";
   color: #34495e;
   font-size: 30px;
-  margin-top: -11px;
+  margin-top: -5px;
   padding-bottom: 11.1px;
 }
