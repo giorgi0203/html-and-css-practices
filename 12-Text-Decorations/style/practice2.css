@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 1170px;
+  margin: 50px auto;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.text {
+  margin-bottom: 26px;
+}
+
+.text p {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #a1b1bc;
+  line-height: 23px;
+  padding-right: 0.1px;
+}
+
+.p-2-header {
+  clear: both;
+  font-family: "Roboto";
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+.lists .col {
+  margin-bottom: 23px;
+}
+.lists .col {
+  float: left;
+}
+.lists .col ul {
+  list-style: none;
+}
+.lists .col ul li {
+  margin-right: 28px;
+}
+.lists .col ul li .ul-square {
+  display: inline-block;
+  background-color: #34495e;
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
+  margin-right: 18px;
+}
+
+.lists .col:nth-child(2) ul li .ul-square {
+  display: inline-block;
+  border: solid 1px #a1b1bc;
+  background-color: #ffffff;
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
+}
+
+.code-snippet {
+  background-color: #ecf0f1;
+}
+
+.wrap .poster-left {
+  height: 400px;
+  width: 370px;
+  float: left;
+  background-color: #a1b1bc;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.wrap .text p {
+  margin-bottom: 34px;
+}
+
+.tags {
+  clear: both;
+}
+.tags ul {
+  list-style: none;
+  border: solid #ecf0f1 1px;
+  /* margin-bottom: 50px; */
+}
+.tags ul li {
+  display: inline-block;
+  margin-right: 10px;
+  /* margin-bottom: 50px; */
+  vertical-align: middle;
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #a1b1bc;
+}
+.tags ul li:first-child {
+  background-color: #34495e;
+  font-weight: 700;
+  font-size: 42px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  /* vertical-align: middle; */
+}
+.tags ul li:first-child span {
+  margin-left: 4px;
+  margin-bottom: 2px;
+}
+.admin-wrap {
+  clear: both;
+  margin-top: 50px;
+  min-height: 102px;
+  border: solid #ECF0F1 1px;
+}
+.admin-wrap .info .name{
+  font-size: 18;
+  line-height: 24px;
+}
+.admin-wrap .img {
+  width: 100px;
+  height: 100px;
+  background-color: #a1b1bc;
+  border: solid #ffffff 3px;
+  box-shadow: 0px 0px 28px 2px rgba(0, 0, 0, 0.42);
+  border-radius: 5px;
+  float: left;
+  margin-right: 30px;
+}
+/* 
+.admin-wrap .img{
+clear: both;
+} */
