@@ -9,38 +9,43 @@ section {
   height: 600px;
   display: grid;
   grid-template-areas:
-    "top-left-sq top-right-sq top-right-sq"
-    "left-col-lg top-right-sq top-right-sq"
-    "left-col-sm bottom-col bottom-right-1"
-    "left-col-sm bottom-col bottom-right-2";
-  border: solid black 1px;
+    "top-left top-left top-right top-right"
+    "middle-left middle-left middle-right middle-right"
+    "bottom-col-first bottom-col-square bottom-col-split-lg bottom-col-last"
+    "bottom-col-first bottom-col-square bottom-col-split-sm bottom-col-last";
   grid-gap: 2px;
-  grid-template-rows: 100px 200px 50px 50px;
-  grid-template-columns: 100px 200px 50px;
+  grid-template-columns: 40px 100px 100px 60px;
+  grid-template-rows: 100px 60px 100px 20px;
 }
 
 section > div {
   background-color: aqua;
 }
 
-.top-left-sq {
-  grid-area: top-left-sq;
+.top-left {
+  grid-area: top-left;
 }
-.top-right-sq {
-  grid-area: top-right-sq;
+.top-right {
+  grid-area: top-right;
 }
-.left-col-lg {
-  grid-area: left-col-lg;
+.middle-left {
+  grid-area: middle-left;
 }
-.left-col-sm {
-  grid-area: left-col-sm;
+.middle-right {
+  grid-area: middle-right;
 }
-.bottom-col {
-  grid-area: bottom-col;
+.bottom-col-first {
+  grid-area: bottom-col-first;
 }
-.bottom-right-1 {
-  grid-area: bottom-right-1;
+.bottom-col-square {
+  grid-area: bottom-col-square;
 }
-.bottom-right-2 {
-  grid-area: bottom-right-2;
+.bottom-col-split-lg {
+  grid-area: bottom-col-split-lg;
+}
+.bottom-col-split-sm {
+  grid-area: bottom-col-split-sm;
+}
+.bottom-col-last {
+  grid-area: bottom-col-last;
 }
