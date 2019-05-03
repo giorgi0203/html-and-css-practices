@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-areas:
+    "top-left-sq top-right-sq top-right-sq"
+    "left-col-lg top-right-sq top-right-sq"
+    "left-col-sm bottom-col bottom-right-1"
+    "left-col-sm bottom-col bottom-right-2";
+  border: solid black 1px;
+  grid-gap: 2px;
+  grid-template-rows: 100px 200px 50px 50px;
+  grid-template-columns: 100px 200px 50px;
+}
+
+section > div {
+  background-color: aqua;
+}
+
+.top-left-sq {
+  grid-area: top-left-sq;
+}
+.top-right-sq {
+  grid-area: top-right-sq;
+}
+.left-col-lg {
+  grid-area: left-col-lg;
+}
+.left-col-sm {
+  grid-area: left-col-sm;
+}
+.bottom-col {
+  grid-area: bottom-col;
+}
+.bottom-right-1 {
+  grid-area: bottom-right-1;
+}
+.bottom-right-2 {
+  grid-area: bottom-right-2;
+}
