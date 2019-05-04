@@ -15,19 +15,19 @@ body {
 article {
   border: 1px solid #ecf0f1;
   width: 100%;
-  /* padding: 20px 20px 0; */
 }
 
 .poster {
   height: 800px;
   width: 100%;
-  background-color: #a1b1bc;
+  background-color: #ecf0f1;
   margin-bottom: 14px;
 }
 
 .content header h1 {
   color: #2c3e50;
   font-family: "Roboto";
+  font-weight: 400;
   font-size: 36px;
   line-height: 30px;
   margin-top: 50px;
@@ -67,13 +67,11 @@ article {
 }
 
 .text p {
-  font-family: "Roboto"; /*TODO: fix first line after porttit  ||||breakline??*/
+  font-family: "Roboto";
   font-size: 14px;
   color: #a1b1bc;
   line-height: 23px;
   padding-right: 0.1px;
-  /* letter-spacing: 0px; */
-  /* word-spacing: 1px; */
 }
 
 .indent {
@@ -96,8 +94,6 @@ article {
   letter-spacing: 0px;
   word-spacing: 0px;
   line-height: 27.2px;
-  /* word-wrap:  */
-  /* line-clamp:  */
 }
 
 .content div:nth-child(4) p::first-letter {
@@ -112,13 +108,12 @@ article {
 }
 .content div:nth-child(4) p {
   word-spacing: 0.1px;
-  /* letter-spacing: 1px; */
-  /* line-height: 5px; */
 }
 
 h2 {
   font-family: "Roboto";
   color: #34495e;
+  font-weight: 400;
   font-size: 30px;
   margin-top: -5px;
   padding-bottom: 11.1px;
