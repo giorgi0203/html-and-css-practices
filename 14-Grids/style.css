@@ -22,9 +22,8 @@ section {
     "cell-29 cell-34 cell-31 cell-32 cell-32 cell-27 cell-33 cell-33 cell-33"
     "cell-29 cell-34 cell-31 cell-32 cell-32 cell-35 cell-35 cell-35 cell-35";
   grid-gap: 2px;
-  /* grid-template-columns: 220px; */
-  /* grid-template-rows: 220px 100px repeat(3,220px); */
-  /* grid-template-rows: ; */
+  grid-template-columns: 50px 100px 50px 100px 70px 50px 30px 50px 30px;
+  grid-template-rows: 50px 50px 20px 60px 20px 20px 40px 70px 20px 20px 80px;
 }
 
 section > div {
